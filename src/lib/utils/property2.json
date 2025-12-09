@@ -1,0 +1,341 @@
+{
+    "slug": "park-beach-residence-two",
+    "title": "Park Beach Residence 2",
+    "banner": {
+        "main": "Sustainable Investment",
+        "head": "Park Beach Residence",
+        "des": "Urban Life with Grandeur Twist",
+        "bg": "/video02.mp4"
+    },
+    "hero": {
+        "heading": "Park Beach Residence Sets a New Benchmark in Seaside Luxury Living",
+        "desc1": "Park Beach Residence at Al Marjan Island introduces a refined vision of coastal living, where modern design and natural beauty come together effortlessly.",
+        "desc2": "Each residence reflects a commitment to excellence, with sleek interiors, premium finishes, and layouts that balance comfort with sophistication. Surrounded by the calm waters and pristine beaches of Al Marjan Island, residents enjoy a lifestyle that is serene yet connected, private yet vibrant. Park Beach Residence is more than a home—it is a sanctuary where luxury feels natural and everyday life becomes an indulgence."
+    },
+    "images": [
+        "/l1.png",
+        "/l2.png",
+        "/l3.png"
+    ],
+    "amenities": [
+        "Infinity Pool",
+        "Fully Equipped Gym",
+        "Kids Play Area",
+        "Beach Access",
+        "24/7 Security"
+    ],
+    "paymentPlans": [
+        {
+            "milestone": "Downpayment",
+            "percentage": "10%"
+        },
+        {
+            "milestone": "During Construction",
+            "percentage": "40%"
+        },
+        {
+            "milestone": "On Handover",
+            "percentage": "10%"
+        },
+        {
+            "milestone": "Post Handover",
+            "percentage": "40%"
+        }
+    ],
+    "floorPlans": [
+        {
+            "type": "Studios",
+            "size": "",
+            "image": "/floorplans/1br.png"
+        },
+        {
+            "type": "1 Bedroom Apartments",
+            "size": "",
+            "image": "/floorplans/2br.png"
+        },
+        {
+            "type": "1 Bedroom + Study Apartments",
+            "size": "",
+            "image": "/floorplans/2br.png"
+        }
+    ],
+    "investment": {
+        "roi": "7% Expected ROI",
+        "note": "Located in a high-demand area with strong rental yields and future appreciation potential."
+    },
+    "faq": [
+        {
+            "question": "What is the expected completion date?",
+            "answer": "The project is expected to be completed by Q4 2026."
+        },
+        {
+            "question": "Is financing available?",
+            "answer": "Yes, financing options are available through partner banks."
+        }
+    ],
+    "overviewData": {
+        "heading": "OVERVIEW & HIGHLIGHTS",
+        "subHeading": "Park Beach Residence is the epitome of luxury living. Let’s have a look at its highlights.",
+        "left": [
+            {
+                "icon": "/project.png",
+                "title": "Project Details ",
+                "value": "Park Beach Residence"
+            },
+            {
+                "icon": "/location.png",
+                "title": "Location",
+                "value": "Al Marjan Island"
+            },
+            {
+                "icon": "/developer.png",
+                "title": "Developer",
+                "value": "Deca Properties "
+            },
+            {
+                "icon": "/ptype.png",
+                "title": "Property Type",
+                "value": "Luxury Apartments "
+            }
+        ],
+        "right": [
+            {
+                "title": "Unit Types ",
+                "icon": "/aunits.png",
+                "value": "Studio and 1-bedroom apartments"
+            },
+            {
+                "title": "Payment Plan",
+                "icon": "/pplan.png",
+                "value": "50/50"
+            },
+            {
+                "title": "Down Payment",
+                "icon": "/wallet.png",
+                "value": "10%"
+            },
+            {
+                "title": "Handover Date",
+                "icon": "/handover.png",
+                "value": "Q2, 2027"
+            }
+        ],
+        "blueSection": {
+            "head": "Starting Price",
+            "bg": "/bluebg.png",
+            "buildingImg": "/bskybuild.png",
+            "startingPrice": "AED 900,000",
+            "desc": "The journey to refined coastal living at Park Beach Residence begins at an exclusive starting price of AED 900,000, an investment that delivers far more than a home. At this price point, buyers secure a lifestyle enriched by world-class amenities, vibrant surroundings, and the prestige of one of the UAE’s most sought-after waterfront destinations. It is an opportunity where timeless comfort and long-term value meet, making ownership as rewarding as it is luxurious."
+        }
+    },
+    "realEstatePromoData": {
+        "topSection": {
+            "title": "Designed for the Elite with a Taste for Timeless Luxury",
+            "description": "Park Beach Residence was envisioned for individuals who seek more than a home—they seek a statement of refinement and success. Each detail, from the sleek architecture to the ultra-modern interiors, reflects the aspirations of those who value sophistication and exclusivity. ",
+            "images": {
+                "main": "/modernvilla.png",
+                "overlay": "/highrisebuilding.png"
+            },
+            "video": {
+                "thumbnail": "/modernvilla.png",
+                "circleBg": "/video-circle-bg.png",
+                "src": "/videos/construction.mp4"
+            },
+            "buttons": [
+                {
+                    "label": "Floor Plan",
+                    "icon": "/fact-sheet.png",
+                    "pdf": "/floor-plan2.pdf"
+                }
+            ]
+        },
+        "bottomSection": {
+            "title": "HOW IT’S USED IN CONSTRUCTION",
+            "desc1": "Our product plays a vital role in a wide range of construction projects, from residential buildings to large-scale infrastructure. Its durability, strength, and versatility make it ideal for demanding environments. In the video below, you'll see how it is applied on-site, improving efficiency and ensuring long-lasting results.",
+            "desc2": "Whether for structural support, finishing, or specialized applications, it delivers consistent performance you can rely on. This real-world footage highlights its value in modern construction practices.",
+            "video": {
+                "thumbnail": "/modernvilla.png",
+                "circleBg": "/video-circle-bg.png"
+            }
+        }
+    },
+    "gallery": {
+        "interior": [
+            {
+                "thumb": "/Interior/image1.jpg"
+            },
+            {
+                "thumb": "/Interior/image2.jpg"
+            },
+            {
+                "thumb": "/Interior/image3.jpeg"
+            },
+            {
+                "thumb": "/Interior/image4.jpg"
+            },
+            {
+                "thumb": "/Interior/image5.jpg"
+            },
+            {
+                "thumb": "/Interior/image6.jpg"
+            }
+        ],
+        "exterior": [
+            {
+                "thumb": "/Exterior/image1.png"
+            },
+            {
+                "thumb": "/Exterior/image2.png"
+            },
+            {
+                "thumb": "/Exterior/image3.png"
+            },
+            {
+                "thumb": "/Exterior/image4.png"
+            },
+            {
+                "thumb": "/Exterior/image5.png"
+            },
+            {
+                "thumb": "/Exterior/image6.png"
+            }
+        ]
+    },
+    "dubaiIslandCommunity": {
+        "title": "Life Within the Al Marjan Island Community",
+        "desc1": "Living on Al Marjan Island means embracing a lifestyle shaped by beauty, comfort, and exclusivity. The community is designed to provide residents with an environment where every detail enriches daily life—from morning walks along sunlit beaches to evenings spent at elegant cafés and waterfront promenades. It is a place where tranquility is never far from vibrancy, ",
+        "desc2": "The printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+        "infoIcons": [
+            {
+                "icon": "/ico1.png",
+                "text": "DevExpansive white sandy beaches"
+            },
+            {
+                "icon": "/ico2.png",
+                "text": "World-class hospitality and entertainment venues"
+            },
+            {
+                "icon": "/ico3.png",
+                "text": "Thriving lifestyle and retail experiences"
+            },
+            {
+                "icon": "/ico4.png",
+                "text": "Exclusive waterfront living environment"
+            }
+        ],
+        "images": {
+            "main": "/d1.png",
+            "topRight": "/d2.png",
+            "bottomRight": "/d3.png"
+        }
+    },
+    "amenitiesCarousel": {
+        "title": "Elite Class Amenities That Define Refined Living",
+        "subtitle": "Park Beach Residence offers an array of world-class amenities, thoughtfully curated to enhance comfort and the true essence of coastal luxury.",
+        "items": [
+            {
+                "image": "/kid-pool.png",
+                "title": "24x7 Security",
+                "description": ""
+            },
+            {
+                "image": "/kitchen.png",
+                "title": "Dining Outlets",
+                "description": ""
+            },
+            {
+                "image": "/garden.png",
+                "title": "Games Room",
+                "description": ""
+            },
+            {
+                "image": "/adult-pool.png",
+                "title": "Gymnasium",
+                "description": ""
+            },
+            {
+                "image": "/adult-pool.png",
+                "title": "Health Care Centre",
+                "description": ""
+            },
+            {
+                "image": "/adult-pool.png",
+                "title": "Indoor Games",
+                "description": ""
+            },
+            {
+                "image": "/adult-pool.png",
+                "title": "Infinity Pool",
+                "description": ""
+            },
+            {
+                "image": "/adult-pool.png",
+                "title": "Kids Play Area",
+                "description": ""
+            },
+            {
+                "image": "/adult-pool.png",
+                "title": "Laundry Services",
+                "description": ""
+            },
+            {
+                "image": "/adult-pool.png",
+                "title": "Parking Facility",
+                "description": ""
+            },
+            {
+                "image": "/adult-pool.png",
+                "title": "Restaurants",
+                "description": ""
+            },
+            {
+                "image": "/adult-pool.png",
+                "title": "Retail Outlets",
+                "description": ""
+            },
+            {
+                "image": "/Sports Court",
+                "description": ""
+            },
+            {
+                "image": "/adult-pool.png",
+                "title": "Swimming Pool",
+                "description": ""
+            }
+        ]
+    },
+    "location": {
+        "city": "Dubai",
+        "community": "Dubai Islands",
+        "mapUrl": "https://maps.google.com/?q=dubai+islands",
+        "nearbyPlaces": [
+            {
+                "icon": "/icon1.png",
+                "text": "25 Minutes Dubai Investment Park"
+            },
+            {
+                "icon": "/icon2.png",
+                "text": "35 Minutes Dubai International Airport"
+            },
+            {
+                "icon": "/icon1.png",
+                "text": "25 Minutes Dubai Investment Park"
+            },
+            {
+                "icon": "/icon2.png",
+                "text": "35 Minutes Dubai International Airport"
+            }
+        ]
+    },
+    "investmentOpportunity": {
+        "title": "An Investment Destination with Exceptional Returns",
+        "highlight": "Apartments on the island currently yield an average ROI of 6.13%.",
+        "description": "Park Beach Residence at Al Marjan Island offers investors a rare opportunity to secure property in one of the UAE’s fastest-growing coastal destinations. Ras Al Khaimah has seen remarkable growth, with property values on Al Marjan Island rising by 18.5% year-on-year, supported by strong demand for luxury waterfront living",
+        "buttonText": "Discover The Possibilities",
+        "buttonLink": "/investment",
+        "images": {
+            "main": "/main-image.png",
+            "secondary": "/secondary-image.png"
+        }
+    }
+}

@@ -1,0 +1,407 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@font-face {
+  font-family: "poppins";
+  src: url("/font/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: "poppinsRegular";
+  src: url("/font/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Ebrima";
+  src: url("/font/Ebrima/ebrima.ttf");
+}
+@keyframes scaleGlow {
+  0% {
+    transform: scale(1);
+    opacity: 0.85;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.85;
+  }
+}
+
+@font-face {
+  font-family: "Ebrima-bold";
+  src: url("/font/Ebrima/ebrima-bold.ttf");
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("/font/Inter/static/Inter_18pt-Regular.ttf");
+}
+
+@font-face {
+  font-family: "rage";
+  src: url("/font/RageItalic/RageItalic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+} */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+
+  --color-blue-50: #ebffff;
+  --color-blue-100: #e0f5fa;
+  --color-blue-200: #b2e6f2;
+  --color-blue-300: #7fd5e9;
+  --color-blue-400: #3cb8d6;
+  --color-blue-500: #087590;
+  --color-blue-600: #066377;
+  --color-blue-700: #044d5f;
+  --color-blue-800: #116279;
+  --color-blue-900: #26326A;
+  --color-blue-950: #053547;
+  --color-blue-50: #ebffff;
+
+  --color-green-50: #e8f5f0;
+  --color-green-100: #c6e9db;
+  --color-green-200: #9bd9c2;
+  --color-green-300: #67c3a5;
+  --color-green-400: #36a384;
+  --color-green-500: #175f48;
+  --color-green-600: #12513e;
+  --color-green-700: #0d4233;
+  --color-green-800: #093528;
+  --color-green-900: #05281e;
+
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+@font-face {
+  font-family: 'SaudiRiyal';
+  src: url('/font/SaudiRiyal.ttf') format('truetype');
+}
+
+.price {
+  font-family: 'SaudiRiyal';
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.ebrima {
+  font-family: 'Ebrima';
+}
+
+.ebrima-bold {
+  font-family: 'Ebrima-bold';
+}
+/* .prose p {
+  white-space: pre-wrap;
+} */
+
+/* Add this to your global CSS file */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.prose [data-list="bullet"] {
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+}
+
+
+/* Apply directly to the scrollable container */
+/* .custom-scrollbar::-webkit-scrollbar {
+  height: 1px !important; /* force ultra thin line */
+/* } */
+
+/* .custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: white !important;
+  border-radius: 0 !important; /* perfectly straight */
+/* } */
+/* 
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #ccc !important; /* subtle hover */
+/* } */
+
+/* For Firefox */
+/* .custom-scrollbar {
+  scrollbar-width: thin !important;
+  scrollbar-color: white transparent !important;
+}  */
+/* Ultra-thin custom horizontal scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 1px !important;
+  /* <-- make this smaller (try 1px if you want ultra thin) */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #ffffff !important;
+  /* white line */
+  border-radius: 10px !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #cccccc !important;
+}
+
+/* For Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin !important;
+  scrollbar-color: #ffffff transparent !important;
+}
+
+.rage {
+  font-family: 'rage';
+}
+
+/* body {3
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'inter', serif;
+} */
+
+h1,
+h2 {
+  font-family: 'Ebrima';
+}
+
+h3 {
+  font-family: 'poppinsRegular';
+}
+
+/* .font {
+  font-weight: 900;
+} */
+
+
+/* h3 {
+  font-family: 'inter';
+} */
+
+body {
+  font-family: 'poppins';
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-400%);
+  }
+}
+
+.logo-slider {
+  animation: slide 10s linear infinite;
+}
+.logo-slider-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.logo-slider {
+  display: inline-flex;
+  gap: 4rem;
+  white-space: nowrap;
+  animation: scroll-left 40s linear infinite;
+}
+/* 
+/* Keyframe using transform with real pixel movement */
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause on hover */
+.logo-slider:hover {
+  animation-play-state: paused;
+}
+
+.migration-scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+.migration-scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* Custom scrollbar-hide utility */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+
+  scrollbar-width: none;
+
+}
+.swiper-slide * {
+  user-select: text !important;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari */
+}
+
+.modal.fade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* Full height for centering */
+}
+
+.modal-dialog {
+  margin: auto;
+  /* Center the modal */
+  max-width: 50%;
+  /* Set max width */
+}
+
+/* Hide the dropdown options (circle, square, etc.) but keep the button */
+.jodit-ui-group__ul .jodit-toolbar-button__trigger {
+  display: none !important;
+}
+
+
+@media (max-width: 768px) {
+  .modal-dialog {
+    max-width: 90%;
+    /* Adjust width on smaller screens */
+  }
+}
+
+.jodit-container {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.post-content-wrap {
+  padding: 5px !important;
+}
+
+.jodit-editor ul {
+  list-style-type: disc !important;
+  padding-left: 20px !important;
+}
+
+.jodit-editor ol {
+  list-style-type: decimal !important;
+  padding-left: 20px !important;
+}
+
+.jodit-container {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.post-content-wrap {
+  padding: 5px !important;
+}
+
+.jodit-editor ul {
+  list-style-type: disc !important;
+  padding-left: 20px !important;
+}
+
+.jodit-editor ol {
+  list-style-type: decimal !important;
+  padding-left: 20px !important;
+}
+
+
+
+@keyframes scrollRow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-row {
+  display: flex;
+  white-space: nowrap;
+  animation: scrollRow 25s linear infinite;
+}
+
+.animation-delay-10s {
+  animation-delay: 10s;
+}
+.swiper-slide {
+  overflow: hidden;
+}
+/* ✅ only for this Swiper */
+.custom-mobile-swiper {
+  overflow: visible !important;
+}
+
+.custom-mobile-swiper .swiper-slide {
+  overflow: visible !important;
+  z-index: 2;
+}
+/* globals.css */
+
+/* Scrollbar for Webkit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 6px; /* width of scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* track background */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1A7D85; /* theme color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #14575a; /* darker on hover */
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: #1A7D85 #f0f0f0; /* thumb color | track color */
+}

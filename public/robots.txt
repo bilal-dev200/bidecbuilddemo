@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /*.htm$
+Disallow: /comment.php
+Disallow: /shopdetail
+Disallow: /wp-admin/
+Disallow: /feed/
+Disallow: /feed/$
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /tag/
+Disallow: /wp-contents/plugins/
+
+Sitemap: https://bidecsol.com/sitemap.xml

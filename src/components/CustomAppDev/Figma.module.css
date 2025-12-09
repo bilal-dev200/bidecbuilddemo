@@ -1,0 +1,372 @@
+.groupParent {
+  	width: 100%;
+  	height: 405px;
+  	position: relative;
+  	text-align: center;
+  	font-size: 6.21px;
+  	color: #fff;
+  	font-family: Ebrima;
+}
+.groupContainer {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 172.7px);
+  	width: 345.4px;
+  	height: 405px;
+}
+.rectangleParent {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 168.7px);
+  	width: 341.4px;
+  	height: 405px;
+}
+.groupChild {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 170.7px);
+  	border-radius: 10px;
+  	background-color: #1a7d85;
+  	width: 341px;
+  	height: 405px;
+}
+.maskGroup {
+  	position: absolute;
+  	top: 0.2px;
+  	left: 155.99px;
+  	width: 185.4px;
+  	height: 123.4px;
+}
+.asset182 {
+  	position: absolute;
+  	top: 0px;
+  	left: 7.88px;
+  	border-radius: 9px;
+  	width: 185.4px;
+  	height: 123.4px;
+  	object-fit: cover;
+  	opacity: 0.5;
+}
+.groupItem {
+  	position: absolute;
+  	top: 315px;
+  	left: 0px;
+  	width: 176px;
+  	height: 90px;
+  	object-fit: contain;
+}
+.yourOneStopDigitalTransforParent {
+  	position: absolute;
+  	top: 22px;
+  	left: calc(50% - 158.7px);
+  	width: 318px;
+  	height: 116px;
+  	font-size: 25px;
+}
+.yourOneStopDigitalContainer {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 159px);
+  	line-height: 31px;
+  	display: flex;
+  	align-items: center;
+  	width: 318px;
+}
+.yourOneStopDigitalContainer2 {
+  	width: 100%;
+}
+.yourOneStopDigital {
+  	margin: 0;
+}
+.transformationPartner2 {
+  	font-family: Ebrima;
+}
+.fromConceptToContainer {
+  	position: absolute;
+  	top: 60px;
+  	left: calc(50% - 133px);
+  	font-size: 10px;
+  	font-weight: 300;
+  	font-family: Poppins;
+  	display: flex;
+  	align-items: center;
+  	width: 266px;
+  	height: 56px;
+}
+.maskGroup2 {
+  	position: absolute;
+  	top: 124px;
+  	left: 4px;
+  	width: 341px;
+  	height: 85px;
+  	color: #000;
+}
+.rectangleGroup {
+  	position: absolute;
+  	top: 10px;
+  	left: -16px;
+  	width: 444px;
+  	height: 69px;
+}
+.groupInner {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 4.03px;
+  	background-color: #fff;
+  	width: 69px;
+  	height: 69px;
+}
+.rectangleDiv {
+  	position: absolute;
+  	top: 0px;
+  	left: 75px;
+  	border-radius: 4.03px;
+  	background-color: #0c1a16;
+  	width: 69px;
+  	height: 69px;
+}
+.groupChild2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 150px;
+  	border-radius: 4.03px;
+  	background-color: #fff;
+  	width: 69px;
+  	height: 69px;
+}
+.groupChild3 {
+  	position: absolute;
+  	top: 0px;
+  	left: 225px;
+  	border-radius: 4.03px;
+  	background-color: #fff;
+  	width: 69px;
+  	height: 69px;
+}
+.groupChild4 {
+  	position: absolute;
+  	top: 0px;
+  	left: 300px;
+  	border-radius: 4.03px;
+  	background-color: #fff;
+  	width: 69px;
+  	height: 69px;
+}
+.groupChild5 {
+  	position: absolute;
+  	top: 0px;
+  	left: 375px;
+  	border-radius: 4.03px;
+  	background-color: #fff;
+  	width: 69px;
+  	height: 69px;
+}
+.groupIcon {
+  	position: absolute;
+  	top: 18.25px;
+  	left: 24.29px;
+  	width: 20.5px;
+  	height: 20.5px;
+  	object-fit: cover;
+}
+.ellipseParent {
+  	position: absolute;
+  	top: 11px;
+  	left: 162px;
+  	width: 45.4px;
+  	height: 47.1px;
+}
+.ellipseDiv {
+  	position: absolute;
+  	top: 0px;
+  	left: 6.25px;
+  	border-radius: 50%;
+  	background: linear-gradient(180deg, #1a7d85, #fff 85.58%);
+  	width: 30.9px;
+  	height: 30.9px;
+  	opacity: 0.45;
+}
+.softwareDevelopment {
+  	position: absolute;
+  	top: 34.24px;
+  	left: calc(50% - 22.7px);
+  	line-height: 121.4%;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 45.4px;
+  	height: 12.8px;
+}
+.image3690Icon {
+  	position: absolute;
+  	top: 9.67px;
+  	left: 12.29px;
+  	width: 19.3px;
+  	height: 19.3px;
+  	object-fit: cover;
+}
+.ellipseGroup {
+  	position: absolute;
+  	top: 11px;
+  	left: 237px;
+  	width: 45.4px;
+  	height: 47.1px;
+}
+.groupChild6 {
+  	position: absolute;
+  	top: 0px;
+  	left: 6.28px;
+  	border-radius: 50%;
+  	background: linear-gradient(180deg, #1a7d85, #fff 85.58%);
+  	width: 30.9px;
+  	height: 30.9px;
+  	opacity: 0.45;
+}
+.image3691Icon {
+  	position: absolute;
+  	top: 9.67px;
+  	left: 11.89px;
+  	width: 19.3px;
+  	height: 19.3px;
+  	object-fit: cover;
+}
+.ellipseContainer {
+  	position: absolute;
+  	top: 11px;
+  	left: 387px;
+  	width: 45.4px;
+  	height: 47.1px;
+}
+.groupChild7 {
+  	position: absolute;
+  	top: 0px;
+  	left: 6.29px;
+  	border-radius: 50%;
+  	background: linear-gradient(180deg, #1a7d85, #fff 85.58%);
+  	width: 30.9px;
+  	height: 30.9px;
+  	opacity: 0.45;
+}
+.groupDiv {
+  	position: absolute;
+  	top: 11px;
+  	left: 312px;
+  	width: 45.4px;
+  	height: 47.1px;
+}
+.image3693Icon {
+  	position: absolute;
+  	top: 9.67px;
+  	left: 10.28px;
+  	width: 19.3px;
+  	height: 19.3px;
+  	object-fit: cover;
+}
+.ellipseParent2 {
+  	position: absolute;
+  	top: 145px;
+  	left: 75px;
+  	width: 45.4px;
+  	height: 47.1px;
+}
+.groupChild9 {
+  	position: absolute;
+  	top: 0px;
+  	left: 6.25px;
+  	border-radius: 50%;
+  	background: linear-gradient(180deg, #1a7d85, #0c1a16 80%);
+  	width: 30.9px;
+  	height: 30.9px;
+}
+.mobileAppDevelopment {
+  	position: absolute;
+  	top: 34.24px;
+  	left: calc(50% - 22.7px);
+  	line-height: 114.07%;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 45.4px;
+  	height: 12.8px;
+}
+.maskGroupIcon {
+  	position: absolute;
+  	top: 7.25px;
+  	left: 12.29px;
+  	width: 20.5px;
+  	height: 20.5px;
+  	object-fit: cover;
+}
+.ellipseParent3 {
+  	position: absolute;
+  	top: 145px;
+  	left: 0px;
+  	width: 45.4px;
+  	height: 47.1px;
+  	color: #000;
+}
+.groupParent2 {
+  	position: absolute;
+  	top: 225px;
+  	left: 29px;
+  	width: 291.4px;
+  	height: 152.5px;
+  	text-align: left;
+  	font-size: 16.75px;
+}
+.rectangleWrapper {
+  	position: absolute;
+  	top: 96.31px;
+  	left: 101px;
+  	width: 93px;
+  	height: 56px;
+}
+.groupChild11 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 9.75px;
+  	background-color: #4b4b4b;
+  	border: 2.9px solid #0c1a16;
+  	box-sizing: border-box;
+  	width: 98.8px;
+  	height: 61.8px;
+}
+.groupChild12 {
+  	position: absolute;
+  	top: 0px;
+  	left: 101px;
+  	width: 190.4px;
+  	height: 152.5px;
+  	object-fit: cover;
+}
+.mobileAppDevelopmentParent {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 145.7px);
+  	width: 167px;
+  	height: 84px;
+}
+.mobileAppDevelopment2 {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 83.5px);
+  	line-height: 18px;
+  	display: flex;
+  	align-items: center;
+  	width: 167px;
+  	height: 36px;
+}
+.itIsAContainer {
+  	position: absolute;
+  	top: 44px;
+  	left: calc(50% - 83.5px);
+  	font-size: 7.97px;
+  	line-height: 126%;
+  	font-weight: 300;
+  	font-family: Poppins;
+  	display: flex;
+  	align-items: center;
+  	width: 156px;
+}
